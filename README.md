@@ -1,7 +1,7 @@
 # `MY COUNTER APP`
 
 ## Task To Do
-Please add the "decreament" function into the motoko code and the frontend code to allow click the `Decrement` button to decrease the counter.
+Please add the "decrement" function into the Motoko code and the frontend code to allow click the `Decrement` button to decrease the counter.
 
 ## Get Started
 Welcome to your new `my_counter_app` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
