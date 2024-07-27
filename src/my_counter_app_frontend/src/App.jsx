@@ -6,6 +6,7 @@ function App() {
   const [counter, setCounter] = useState(0);
   const [loading, setLoading] = useState(false);
 
+  console.log(`[App] my_counter_app_backend:`, my_counter_app_backend);
 
   // Get the current counter value
   const fetchCount = async () => {
@@ -26,7 +27,9 @@ function App() {
     if (loading) return; // Cancel if waiting for a new count
     try {
       setLoading(true);
-      await my_counter_app_backend.inc(); // Increment the count by 1
+      let result = await my_counter_app_backend.inc(); // Increment the count by 1
+      console.log(`[increment] result:`, result);
+      console.log(`[increment] hash:`, result.hash);
       await fetchCount(); // Fetch the new count
     } finally {
       setLoading(false);
