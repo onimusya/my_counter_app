@@ -9,6 +9,10 @@ To get started with Gitpod, click the button below:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/onimusya/my_counter_app)
 
+If you rather want to use GitHub Codespaces, click this button instead:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/onimusya/my_counter_app?quickstart=1)
+
 Welcome to your new `my_counter_app` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
 
 To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
