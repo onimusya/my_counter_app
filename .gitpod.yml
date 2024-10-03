@@ -1,7 +1,7 @@
 tasks:
   - before: |
-      export DFX_VERSION=0.21.0
-      export POCKET_IC_SERVER_VERSION=5.0.0
+      export DFX_VERSION=0.23.0
+      export POCKET_IC_SERVER_VERSION=6.0.0
       export DFXVM_INIT_YES=true
       export PATH="$HOME/bin:$PATH"
       echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
