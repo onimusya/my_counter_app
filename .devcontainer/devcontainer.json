@@ -1,6 +1,6 @@
 {
     "name": "ICP Counter App",
-    "image": "ghcr.io/dfinity/icp-dev-env:7",
+    "image": "ghcr.io/dfinity/icp-dev-env:10",
     "forwardPorts": [
         4943,
         8080
